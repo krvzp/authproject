@@ -9,7 +9,7 @@
 <script type="text/javascript">
 
     $(function() {
-        console.log(document.location);
+       
         $('#csvExample').click(function(){
             document.location.href = document.location.protocol+'//'+document.location.host+'/resource/example_csv.csv';
         });
